@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body, html {
+  font-family: Arial, sans-serif;
+  height: 100%;
+  margin: 0;
+  color: #8794AB;
+  font-family: 'Roboto', sans-serif;
+  background-color: #E7EAEE;
+  font-size: 1em;
+}
+
+#juxtapose {
+  padding-top: 0px;
+  height: ;
+}
+h1 {
+  font-size: 2vw;
+  text-align: center;
+  line-height: 50px;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.round-portrait {
+  border-radius:45px;
+  height: 135px;
+  border: 1px solid #a5a5a5;
+  box-sizing: border-box;
+  box-shadow: 8px 10px 18px lightgray;
+}
+
+.white-card {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 36px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+ footer {
+ 	text-align: center;
+ 	letter-spacing: 5px;
+ 	font-size: 0.85em;
+ }
+
+ a{
+  text-decoration:none;
+}
+
+h2 {
+  font-size: large;
+  letter-spacing: 2px;
+}
+p {
+  padding: 2vw;
+}
+
+ a:hover {
+  color: #DBDFE6;
+  transition: 0.5s;
+}
+
+.list-inline {
+  list-style: none;
+  top: 20vw;
+  left: 40vw;
+}
+
+.list-inline li{
+  list-style: none;
+  display: inline;
+}
+
+.btn-grey {
+  color: grey;
+  font-size: 48px;
+  transition: 1s;
+}
+
+.btn-manatee {
+  background-color: #8E9AAF;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 9px;
+  font-weight: bold;
+}
+
+.btn-grey:hover {
+  color: black;
+  transition: 1s;
+}
+
+/* responsiveness for smartphone */
+
+@media only screen and (max-device-width: 1024px) {
+
+body {
+  font-size: 4vw;
+}
+
+h1 {
+  font-size: 4vw;
+}
+.container {
+  width: auto;
+  margin: 1em;
+}
+
+
+.white-card {
+  padding: 40px;
+  border-radius: 12px;
+  margin: 12px 12px;
+}
+
+
+.btn-grey {
+  font-size: 12vw;
+}
+
+.btn-manatee {
+  padding: 4vw 3vw;
+}
